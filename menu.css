@@ -44,7 +44,7 @@ li a:hover {
 
 
 
-.kartica1{
+.kartica{
     border-radius: 50px;
     background-color: #1e3932;
     width : 600px;
@@ -53,7 +53,12 @@ li a:hover {
     height: auto;
 }
 
-.glavni_tekst1{
+.kartica:hover {
+    transform: scale(1.1);
+    transition: transform .5s ease;
+}
+
+.glavni_tekst1 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 40px;
     color: #ffffff;
@@ -62,34 +67,7 @@ li a:hover {
     margin-left: 12%;
 }
 
-.kartica1:hover {
-    transform: scale(1.1);
-    transition: transform .5s ease;
-}
-
-.opis_teksta1{
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 25px;
-    color: #ffffff;
-    padding : 40px;
-    text-align: center;
-}
-
-.kartica2{
-    border-radius: 50px;
-    background-color: #1e3932;
-    width : 600px;
-    margin-bottom: 50px;
-    max-width:100%;
-    height: auto;
-}
-
-.kartica2:hover {
-    transform: scale(1.1);
-    transition: transform .5s ease;
-}
-
-.glavni_tekst2{
+.glavni_tekst2 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 40px;
     color: #ffffff;
@@ -98,43 +76,13 @@ li a:hover {
     margin-left: 19%;
 }
 
-.opis_teksta2{
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 25px;
-    color: #ffffff;
-    padding : 40px;
-    text-align: center;
-}
-
-.kartica3{
-    border-radius: 50px;
-    background-color: #1e3932;
-    width : 600px;
-    margin-bottom: 50px;
-    max-width:100%;
-    height: auto;
-}
-
-.kartica3:hover {
-    transform: scale(1.1);
-    transition: transform .5s ease;
-}
-
-.glavni_tekst3{
+.glavni_tekst3 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 40px;
     color: #ffffff;
     padding-top : 30px;
     padding-bottom: 5px;
     margin-left: 20%;
-}
-
-.opis_teksta3{
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 25px;
-    color: #ffffff;
-    padding : 40px;
-    text-align: center;
 }
 
 
