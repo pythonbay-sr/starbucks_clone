@@ -58,31 +58,13 @@ li a:hover {
     transition: transform .5s ease;
 }
 
-.glavni_tekst1 {
+.glavni_tekst {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 40px;
     color: #ffffff;
     padding-top : 30px;
     padding-bottom: 5px;
-    margin-left: 12%;
-}
-
-.glavni_tekst2 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 40px;
-    color: #ffffff;
-    padding-top : 30px;
-    padding-bottom: 5px;
-    margin-left: 19%;
-}
-
-.glavni_tekst3 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 40px;
-    color: #ffffff;
-    padding-top : 30px;
-    padding-bottom: 5px;
-    margin-left: 20%;
+    margin-left: 7%;
 }
 
 
@@ -103,26 +85,8 @@ li a:hover {
 
 
 
-.instagram_sekcija{
-    margin-left: 30%;
-}
-
-.instagram_tekst{
-    margin-left: -7%;
-    margin-right: auto;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 50px;
-    color: #000000;
-    padding: 50px;
-}
-
-.instagram_logo{
-    margin-bottom: -15px;
-}
-
-
 .naslov{
-    margin-left: 35%;
+    margin-left: 33%;
     margin-right: auto;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 85px;
@@ -140,16 +104,6 @@ li a:hover {
 }
 
 
-.food{
-    margin-right: auto;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 60px;
-    color: #000000;
-    padding: 50px;
-}
-
-
-
 footer {
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
@@ -160,8 +114,8 @@ footer {
 }
 
 
-@media only screen and (max-width: 600px){
-    .wallpaper{
-        background-image: "3.jpg";
+@media only screen and (max-width: 1000px){
+    .naslov{
+        margin-left: 15%;
     }
 }
