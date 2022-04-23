@@ -130,6 +130,26 @@ li a:hover {
     padding: 50px;
 }
 
+
+.drinks_food{
+    margin-right: auto;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 60px;
+    color: #000000;
+    padding: 50px;
+}
+
+
+.food{
+    margin-right: auto;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 60px;
+    color: #000000;
+    padding: 50px;
+}
+
+
+
 footer {
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
